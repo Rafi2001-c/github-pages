@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nyam Mami - Jajanan Kekinian</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff8e1;
+      color: #333;
+    }
+    header {
+      background-color: #ffcc00;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+    .hero {
+      text-align: center;
+      padding: 20px;
+    }
+    .hero img {
+      max-width: 90%;
+      border-radius: 10px;
+    }
+    .menu {
+      background-color: #fff3e0;
+      padding: 20px;
+    }
+    .menu h2 {
+      text-align: center;
+    }
+    .menu-item {
+      margin-bottom: 15px;
+      font-size: 1.2em;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #ffd54f;
+    }
+    .button {
+      background-color: #ff5722;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Nyam Mami</h1>
+    <p>Cireng Bunting, Cimol Keju & Cireng Original</p>
+  </header>
+
+  <div class="hero">
+    <img src="foto-gerobak.jpg" alt="Gerobak Nyam Mami" />
+  </div>
+
+  <section class="menu">
+    <h2>Menu Favorit</h2>
+    <div class="menu-item">🌟 Cireng Bunting Ayam / Keju — 10K (5 pcs) / 15K (8 pcs)</div>
+    <div class="menu-item">🌟 Cireng Original (Frozen) — 12K (20 pcs)</div>
+    <div class="menu-item">🌟 Cimol Keju — 10K (12 pcs)</div>
+  </section>
+
+  <footer>
+    <p>Pesan sekarang via WhatsApp 👇</p>
+    <a class="button" href="https://wa.me/6287710137344" target="_blank">Chat Nyam Mami</a>
+    <p>Instagram: @nyammami.gsk</p>
+  </footer>
+
+</body>
+</html>
